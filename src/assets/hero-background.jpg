@@ -1,0 +1,44 @@
+import { Button } from "@/components/ui/button";
+import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+
+const HeroSection = () => {
+  return (
+    <section
+      className="relative flex h-screen flex-col items-center justify-center text-center text-white"
+      style={{
+        backgroundImage: "url('https://picsum.photos/1920/1080')", // 🔥 placeholder image
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="absolute inset-0 bg-black/50" /> {/* overlay for readability */}
+
+      <div className="relative z-10">
+        <h1 className="text-5xl font-bold mb-4">Hi, I’m Abhi 👋</h1>
+        <p className="text-lg mb-6">A passionate developer building modern web apps.</p>
+
+        <div className="flex gap-4 justify-center mb-6">
+          <Button asChild>
+            <a href="mailto:youremail@example.com">
+              <Mail className="mr-2 h-4 w-4" /> Contact
+            </a>
+          </Button>
+          <Button variant="secondary" asChild>
+            <a href="https://github.com/yourgithub" target="_blank">
+              <Github className="mr-2 h-4 w-4" /> GitHub
+            </a>
+          </Button>
+          <Button variant="secondary" asChild>
+            <a href="https://linkedin.com/in/yourlinkedin" target="_blank">
+              <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
+            </a>
+          </Button>
+        </div>
+
+        <ArrowDown className="mx-auto h-6 w-6 animate-bounce" />
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
