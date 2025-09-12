@@ -9,14 +9,14 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "abhijeet.bhati@example.com",
-      href: "mailto:abhijeet.bhati@example.com"
+      value: "bhatiyash267@gmail.com",
+      href: "mailto:bhatiyash267@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone", 
-      value: "+91 9876543210",
-      href: "tel:+919876543210"
+      value: "+91 6353316320",
+      href: "call:+916353316320"
     },
     {
       icon: MapPin,
@@ -30,20 +30,20 @@ const ContactSection = () => {
     {
       icon: Github,
       name: "GitHub",
-      href: "https://github.com",
-      username: "@abhijeetbhati"
+      href: "https://github.com/abhi1212-web",
+      username: "abhi1212-web"
     },
     {
       icon: Linkedin,
       name: "LinkedIn", 
-      href: "https://linkedin.com",
-      username: "abhijeetsingh-bhati"
+      href: "https://www.linkedin.com/in/abhijeetsingh1212/",
+      username: "Abhijeetsingh Mahendrasingh Bhati"
     },
     {
       icon: Mail,
       name: "Email",
-      href: "mailto:abhijeet.bhati@example.com", 
-      username: "abhijeet.bhati@example.com"
+      href: "mailto:bhatiyash267@gmail.com", 
+      username: "bhatiyash267@gmail.com"
     }
   ];
 

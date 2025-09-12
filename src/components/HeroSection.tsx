@@ -51,7 +51,7 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-6 mb-16 animate-fade-up stagger-3">
             <a 
-              href="https://github.com" 
+              href="https://github.com/abhi1212-web/Portfolio-Website" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover-lift hover-rotate"
@@ -59,7 +59,7 @@ const HeroSection = () => {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/abhijeetsingh1212/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover-lift hover-rotate"
@@ -67,7 +67,7 @@ const HeroSection = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="mailto:abhijeet@example.com"
+              href="bhatiyash267@gmai.com"
               className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover-lift hover-rotate"
             >
               <Mail className="h-6 w-6" />

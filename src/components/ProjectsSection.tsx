@@ -6,59 +6,34 @@ import { ExternalLink, Github, Eye } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "AI-Powered Code Assistant",
-      description: "An intelligent code completion and debugging assistant built with transformer models and fine-tuned for multiple programming languages.",
+      title: "Portfolio Website",
+      description: "A personal portfolio website showcasing my projects and skills.",
       image: "/placeholder.svg", // We'll generate this
       technologies: ["Python", "Transformers", "FastAPI", "React", "Docker"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      githubUrl: "https://github.com/abhi1212-web/Portfolio-Website",
+      liveUrl: "https://portfolio-website-e7hi.vercel.app/",
       featured: true
     },
     {
-      title: "Smart Campus Navigation",
-      description: "IoT-based campus navigation system with real-time crowd density analysis and optimal route suggestions using computer vision.",
+      title: "PDF Chatbot",
+      description: "AI-powered chatbot for PDF documents, enabling users to interact with and extract information from PDFs seamlessly.",
       image: "/placeholder.svg",
-      technologies: ["Python", "OpenCV", "Flask", "IoT", "MongoDB"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      technologies: ["Python", "Transformers", "Flask", "PDF.js"],
+      githubUrl: "https://github.com/abhi1212-web/PDF-Chatbot",
+      liveUrl: "https://pdf-chatbot.vercel.app/",
       featured: true
     },
+   
+ 
     {
-      title: "Blockchain Voting System",
-      description: "Secure, transparent voting platform leveraging blockchain technology for tamper-proof elections with smart contract integration.",
-      image: "/placeholder.svg", 
-      technologies: ["Solidity", "Web3.js", "React", "Node.js", "Ethereum"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
-      featured: false
-    },
-    {
-      title: "ML-Based Stock Predictor",
-      description: "Advanced machine learning model for stock price prediction using LSTM networks and sentiment analysis of market news.",
-      image: "/placeholder.svg",
-      technologies: ["Python", "TensorFlow", "LSTM", "Pandas", "Streamlit"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
-      featured: false
-    },
-    {
-      title: "Real-time Chat Application",
-      description: "Scalable real-time messaging platform with file sharing, video calls, and AI-powered message translation capabilities.",
+      title: "Osky AI ",
+      description: "A Advanced Ai ASSISTANT WITH FRIENDLY RESPONSE .",
       image: "/placeholder.svg",
       technologies: ["Node.js", "Socket.io", "React", "Redis", "WebRTC"],
       githubUrl: "https://github.com",
       liveUrl: "https://demo.com",
       featured: false
     },
-    {
-      title: "Healthcare Data Analytics",
-      description: "Comprehensive healthcare data analysis platform with predictive modeling for patient risk assessment and treatment optimization.",
-      image: "/placeholder.svg",
-      technologies: ["Python", "Scikit-learn", "PostgreSQL", "Django", "D3.js"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
-      featured: false
-    }
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
