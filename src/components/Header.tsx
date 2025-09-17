@@ -10,7 +10,7 @@ const Header = () => {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Resume", href: "#resume" },
+    { name: "Resume", href: "/AbhijeetSingh_Resume.pdf" }, // ✅ updated
     { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
   ];
@@ -30,6 +30,8 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
+                target={item.name === "Resume" ? "_blank" : "_self"} // ✅ open resume in new tab
+                rel={item.name === "Resume" ? "noopener noreferrer" : undefined}
                 className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
               >
                 {item.name}
@@ -56,6 +58,8 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
+                  target={item.name === "Resume" ? "_blank" : "_self"} // ✅ works on mobile too
+                  rel={item.name === "Resume" ? "noopener noreferrer" : undefined}
                   className="text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
